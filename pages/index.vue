@@ -5,7 +5,7 @@
       class="bg-green-500 text-green-100 w-6/12 p-2 my-2 rounded-sm hover:bg-green-600"
       @click="missionLimit = missionLimit + 1"
     >
-      Load More Missions
+      Load More Missions 2
     </button>
     <ul>
       <li v-for="mission in missions" :key="mission.id" class="leading-loose">
